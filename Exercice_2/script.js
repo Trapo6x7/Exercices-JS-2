@@ -1,7 +1,7 @@
 const monFocus = document.querySelector("#lastname");
 
-monFocus.addEventListener("focusout", alertOutFocus);
+monFocus.addEventListener("blur", handleAlertBlur);
 
-function alertOutFocus(){
-    alert("Bravo");
+function handleAlertBlur(){
+    alert("Merci de votre participation!");
 };

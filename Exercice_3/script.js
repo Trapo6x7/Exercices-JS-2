@@ -1,7 +1,7 @@
 let champs= document.querySelector("#lastname");
 
-champs.addEventListener("keyup", returnValue);
+champs.addEventListener("input", returnValue);
 
 function returnValue(){
     alert(champs.value);
-}
+};
